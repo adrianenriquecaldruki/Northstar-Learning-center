@@ -467,14 +467,14 @@ os.querySelectorAll('[data-launch]').forEach(b=>b.onclick=()=>launch(b.dataset.l
 <style id="northstar-marketplace-styles">
 .ns-installed-dashboard{margin:22px 0 28px;padding:20px;border:1px solid var(--line,#dfe5ef);border-radius:18px;background:var(--surface,#fff);color:var(--ink,#26344a);box-shadow:0 8px 24px #24344a0a}
 .ns-section-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:14px}.ns-section-head h2{margin:3px 0;font-size:21px}.ns-section-head h2 small{font-size:11px;background:#e8f2ff;color:#1268b3;padding:4px 7px;border-radius:20px;vertical-align:middle}.ns-section-head p{margin:5px 0 0;font-size:12px;opacity:.7}.ns-market-kicker{font-size:9px;font-weight:850;letter-spacing:.16em;color:#2786d5}.ns-section-head button,.ns-market-button{border:1px solid #cbd8e8;background:#f1f7ff;color:#155f9f;border-radius:9px;padding:10px 13px;font-weight:750;cursor:pointer}.ns-installed-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}.ns-installed-empty{grid-column:1/-1;padding:17px;border:1px dashed #cbd6e5;border-radius:12px;color:#77869a;font-size:12px}.ns-installed-app{display:flex;align-items:center;gap:10px;text-align:left;min-width:0;padding:11px;border:1px solid var(--line,#e0e6ef);background:var(--site-background,#f8faff);color:inherit;border-radius:12px;cursor:pointer}.ns-installed-app:hover{border-color:#58a9ec;transform:translateY(-1px)}.ns-installed-app .ns-app-icon{display:grid;place-items:center;flex:0 0 38px;height:38px;border-radius:10px;background:linear-gradient(145deg,#d9edff,#e9e4ff);font-size:22px}.ns-installed-app strong{display:block;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ns-installed-app small{display:block;font-size:10px;opacity:.65;margin-top:3px}
-.ns-market-shell{height:100%;min-height:0;display:flex;flex-direction:column;background:#f4f7fb;color:#172337;font:13px/1.45 "Segoe UI",system-ui,sans-serif}.ns-market-toolbar{padding:13px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;background:#eaf0f7;border-bottom:1px solid #d5dfeb}.ns-market-toolbar input{flex:1;min-width:140px;padding:10px 12px;border:1px solid #cbd7e6;border-radius:9px;background:#fff;color:#172337}.ns-market-cats{display:flex;gap:6px;flex-wrap:wrap;padding:10px 13px 0}.ns-market-cats button{border:1px solid #d6dfeb;background:#fff;color:#3b4b61;border-radius:20px;padding:6px 10px;cursor:pointer}.ns-market-cats button.active{background:#176fc1;border-color:#176fc1;color:white}.ns-market-status{padding:8px 14px 0;color:#66778c;font-size:11px}.ns-market-grid{padding:13px;display:grid;grid-template-columns:repeat(auto-fill,minmax(175px,1fr));gap:12px;overflow:auto;align-content:start}.ns-market-card{border:1px solid #dce4ef;border-radius:13px;background:#fff;padding:13px;display:flex;flex-direction:column;min-height:175px;box-shadow:0 3px 9px #1b2c4207}.ns-market-card-top{display:flex;align-items:center;gap:10px}.ns-market-icon{display:grid;place-items:center;width:42px;height:42px;flex:none;border-radius:12px;background:linear-gradient(145deg,#d9edff,#e9e4ff);font-size:24px}.ns-market-card h3{font-size:13px;margin:0 0 3px}.ns-market-card .ns-category{font-size:10px;color:#6e7f95}.ns-market-card p{font-size:11px;line-height:1.45;color:#627188;flex:1;margin:11px 0}.ns-market-card footer{display:flex;align-items:center;justify-content:space-between;gap:6px}.ns-market-card footer small{font-size:10px;color:#39815d;font-weight:750}.ns-market-card button{border:0;border-radius:8px;background:#176fc1;color:#fff;padding:8px 11px;font-weight:750;cursor:pointer}.ns-market-card button.installed{background:#e8f6ef;color:#24774d}.ns-market-source{font-size:10px;padding:8px 13px;border-top:1px solid #e0e7ef;color:#64758b}.ns-market-source a{color:#176fc1}.ns-game-window-body{padding:0!important;overflow:hidden!important;background:#101522!important}.ns-game-window-body iframe{display:block;width:100%;height:100%;min-height:250px;border:0;background:#101522}.ns-game-window-body .ns-game-note{position:absolute;bottom:0;left:0;right:0;background:#fff0;color:#fff;font-size:10px;padding:5px 9px;pointer-events:none;text-shadow:0 1px 4px #000}.northstar-osdesktopicon.ns-installed-shortcut{margin:12px 0 0 16px;display:inline-flex;vertical-align:top}.northstar-taskicon.ns-dynamic-task{min-width:39px}.ns-os-installed-label{position:relative;z-index:1;margin:18px 0 0 17px;color:#fff;font-size:11px;font-weight:800;text-shadow:0 1px 4px #0008;letter-spacing:.06em}.northstar-window.ns-market-window{width:min(950px,calc(100vw - 24px));height:min(650px,calc(100vh - 110px))}.northstar-window.ns-market-window .northstar-windowbody{padding:0!important;overflow:hidden!important}.northstar-window.ns-game-app-window{width:min(900px,calc(100vw - 24px));height:min(610px,calc(100vh - 110px))}.northstar-window.ns-game-app-window .northstar-windowbody{padding:0!important;overflow:hidden!important;position:relative}
+.ns-market-shell{height:100%;min-height:0;display:flex;flex-direction:column;background:#f4f7fb;color:#172337;font:13px/1.45 "Segoe UI",system-ui,sans-serif}.ns-market-toolbar{padding:13px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;background:#eaf0f7;border-bottom:1px solid #d5dfeb}.ns-market-toolbar select{padding:9px 10px;border:1px solid #cbd7e6;border-radius:9px;background:#fff;color:#172337}.ns-market-toolbar input{flex:1;min-width:140px;padding:10px 12px;border:1px solid #cbd7e6;border-radius:9px;background:#fff;color:#172337}.ns-market-cats{display:flex;gap:6px;flex-wrap:wrap;padding:10px 13px 0}.ns-market-cats button{border:1px solid #d6dfeb;background:#fff;color:#3b4b61;border-radius:20px;padding:6px 10px;cursor:pointer}.ns-market-cats button.active{background:#176fc1;border-color:#176fc1;color:white}.ns-market-status{padding:8px 14px 0;color:#66778c;font-size:11px}.ns-market-grid{padding:13px;display:grid;grid-template-columns:repeat(auto-fill,minmax(175px,1fr));gap:12px;overflow:auto;align-content:start}.ns-market-card{border:1px solid #dce4ef;border-radius:13px;background:#fff;padding:13px;display:flex;flex-direction:column;min-height:175px;box-shadow:0 3px 9px #1b2c4207}.ns-market-card-top{display:flex;align-items:center;gap:10px}.ns-market-icon{display:grid;place-items:center;width:42px;height:42px;flex:none;border-radius:12px;background:linear-gradient(145deg,#d9edff,#e9e4ff);font-size:24px}.ns-market-card h3{font-size:13px;margin:0 0 3px}.ns-market-card .ns-category{font-size:10px;color:#6e7f95}.ns-market-card p{font-size:11px;line-height:1.45;color:#627188;flex:1;margin:11px 0}.ns-market-card footer{display:flex;align-items:center;justify-content:space-between;gap:6px}.ns-market-card footer small{font-size:10px;color:#39815d;font-weight:750}.ns-market-card button{border:0;border-radius:8px;background:#176fc1;color:#fff;padding:8px 11px;font-weight:750;cursor:pointer}.ns-market-card button.installed{background:#e8f6ef;color:#24774d}.ns-market-source{font-size:10px;padding:8px 13px;border-top:1px solid #e0e7ef;color:#64758b}.ns-market-source a{color:#176fc1}.ns-game-window-body{padding:0!important;overflow:hidden!important;background:#101522!important}.ns-game-window-body iframe{display:block;width:100%;height:100%;min-height:250px;border:0;background:#101522}.ns-game-window-body .ns-game-note{position:absolute;bottom:0;left:0;right:0;background:#fff0;color:#fff;font-size:10px;padding:5px 9px;pointer-events:none;text-shadow:0 1px 4px #000}.northstar-osdesktopicon.ns-installed-shortcut{margin:12px 0 0 16px;display:inline-flex;vertical-align:top}.northstar-taskicon.ns-dynamic-task{min-width:39px}.ns-os-installed-label{position:relative;z-index:1;margin:18px 0 0 17px;color:#fff;font-size:11px;font-weight:800;text-shadow:0 1px 4px #0008;letter-spacing:.06em}.northstar-window.ns-market-window{width:min(950px,calc(100vw - 24px));height:min(650px,calc(100vh - 110px))}.northstar-window.ns-market-window .northstar-windowbody{padding:0!important;overflow:hidden!important}.northstar-window.ns-game-app-window{width:min(900px,calc(100vw - 24px));height:min(610px,calc(100vh - 110px))}.northstar-window.ns-game-app-window .northstar-windowbody{padding:0!important;overflow:hidden!important;position:relative}
 @media(max-width:600px){.ns-section-head{align-items:flex-start;flex-direction:column}.ns-market-grid{grid-template-columns:repeat(2,minmax(0,1fr));padding:8px;gap:8px}.ns-market-card{padding:9px;min-width:0}.ns-market-card-top{align-items:flex-start;gap:7px}.ns-market-icon{width:34px;height:34px;font-size:20px}.ns-market-card p{font-size:10px}}
 </style>
 <script id="northstar-free-app-store">
 (()=>{
 'use strict';
 const REPO='https://github.com/CoolDude2349/Offline-HTML-Games-Pack';
-const CDN='https://cdn.jsdelivr.net/gh/CoolDude2349/Offline-HTML-Games-Pack@master/';
+const CDN='https://raw.githack.com/CoolDude2349/Offline-HTML-Games-Pack/master/';
 const apps=[
 {id:'2048',name:'2048',file:'offline/2048.html',category:'Puzzle',icon:'🔢',description:'Slide and merge matching number tiles to reach 2048.'},
 {id:'coreball',name:'Coreball',file:'offline/coreball.html',category:'Arcade',icon:'🎯',description:'Time your shots and fit every pin around the spinning core.'},
@@ -487,12 +487,25 @@ const apps=[
 {id:'spacebar-clicker',name:'Spacebar Clicker',file:'offline/spacebar-clicker.html',category:'Clicker',icon:'⌨️',description:'Mash the spacebar, earn points, and buy increasingly silly upgrades.'},
 {id:'wordle-unlimited',name:'Wordle Unlimited',file:'offline/wordle-unlimited.html',category:'Word',icon:'🔤',description:'Guess the hidden word using letter clues.'}
 ];
+const translations={
+ en:{store:'Free App Store',search:'Search free games…',searchLabel:'Search marketplace games',refresh:'Refresh',all:'All',installed:'Installed',install:'＋ Install',free:'free games',installedCount:'installed',noMatch:'No games match that search.',empty:'No marketplace apps installed yet. Browse the App Store to add games here.',browse:'＋ Browse App Store',installedApps:'Installed Apps',yourDesktop:'YOUR DESKTOP',installedBlurb:'Free games you installed from the app marketplace.',source:'Every listing below points to a game file in Offline-HTML-Games-Pack. Install adds a shortcut to this OS and your dashboard; game files load from the repository when launched.',languages:{en:'English',es:'Español',fr:'Français',de:'Deutsch',pt:'Português',ja:'日本語',zh:'中文'},cats:{Puzzle:'Puzzle',Arcade:'Arcade',Sandbox:'Sandbox',Runner:'Runner',Clicker:'Clicker',Word:'Word'}},
+ es:{store:'Tienda de aplicaciones gratis',search:'Buscar juegos gratis…',searchLabel:'Buscar juegos',refresh:'Actualizar',all:'Todos',installed:'Instalado',install:'＋ Instalar',free:'juegos gratis',installedCount:'instalados',noMatch:'No hay juegos que coincidan con la búsqueda.',empty:'Todavía no hay aplicaciones instaladas. Abre la tienda para añadir juegos.',browse:'＋ Abrir tienda',installedApps:'Aplicaciones instaladas',yourDesktop:'TU ESCRITORIO',installedBlurb:'Juegos gratis instalados desde la tienda.',source:'Cada elemento enlaza a un archivo de Offline-HTML-Games-Pack. Instalar añade un acceso directo; los juegos se cargan desde el repositorio al abrirlos.',languages:{en:'English',es:'Español',fr:'Français',de:'Deutsch',pt:'Português',ja:'日本語',zh:'中文'},cats:{Puzzle:'Puzles',Arcade:'Arcade',Sandbox:'Sandbox',Runner:'Carreras',Clicker:'Clics',Word:'Palabras'}},
+ fr:{store:'Boutique d’applications gratuites',search:'Rechercher des jeux gratuits…',searchLabel:'Rechercher des jeux',refresh:'Actualiser',all:'Tout',installed:'Installé',install:'＋ Installer',free:'jeux gratuits',installedCount:'installés',noMatch:'Aucun jeu ne correspond à cette recherche.',empty:'Aucune application installée. Ouvrez la boutique pour ajouter des jeux.',browse:'＋ Ouvrir la boutique',installedApps:'Applications installées',yourDesktop:'VOTRE BUREAU',installedBlurb:'Jeux gratuits installés depuis la boutique.',source:'Chaque élément pointe vers un fichier d’Offline-HTML-Games-Pack. Installer ajoute un raccourci ; les jeux sont chargés depuis le dépôt au lancement.',languages:{en:'English',es:'Español',fr:'Français',de:'Deutsch',pt:'Português',ja:'日本語',zh:'中文'},cats:{Puzzle:'Casse-tête',Arcade:'Arcade',Sandbox:'Bac à sable',Runner:'Course',Clicker:'Clic',Word:'Mots'}},
+ de:{store:'Kostenloser App-Store',search:'Kostenlose Spiele suchen…',searchLabel:'Spiele suchen',refresh:'Aktualisieren',all:'Alle',installed:'Installiert',install:'＋ Installieren',free:'kostenlose Spiele',installedCount:'installiert',noMatch:'Keine passenden Spiele gefunden.',empty:'Noch keine Apps installiert. Öffne den Store, um Spiele hinzuzufügen.',browse:'＋ Store öffnen',installedApps:'Installierte Apps',yourDesktop:'DEIN DESKTOP',installedBlurb:'Kostenlose Spiele aus dem App-Store.',source:'Jeder Eintrag verweist auf eine Spieldatei in Offline-HTML-Games-Pack. Installieren fügt eine Verknüpfung hinzu; Spiele werden beim Start aus dem Repository geladen.',languages:{en:'English',es:'Español',fr:'Français',de:'Deutsch',pt:'Português',ja:'日本語',zh:'中文'},cats:{Puzzle:'Rätsel',Arcade:'Arcade',Sandbox:'Sandbox',Runner:'Laufspiel',Clicker:'Klickspiel',Word:'Wörter'}},
+ pt:{store:'Loja de apps grátis',search:'Buscar jogos grátis…',searchLabel:'Buscar jogos',refresh:'Atualizar',all:'Todos',installed:'Instalado',install:'＋ Instalar',free:'jogos grátis',installedCount:'instalados',noMatch:'Nenhum jogo corresponde à busca.',empty:'Nenhum app instalado ainda. Abra a loja para adicionar jogos.',browse:'＋ Abrir loja',installedApps:'Apps instalados',yourDesktop:'SUA ÁREA DE TRABALHO',installedBlurb:'Jogos grátis instalados pela loja.',source:'Cada item aponta para um arquivo do Offline-HTML-Games-Pack. Instalar adiciona um atalho; os jogos são carregados do repositório ao abrir.',languages:{en:'English',es:'Español',fr:'Français',de:'Deutsch',pt:'Português',ja:'日本語',zh:'中文'},cats:{Puzzle:'Quebra-cabeça',Arcade:'Arcade',Sandbox:'Sandbox',Runner:'Corrida',Clicker:'Cliques',Word:'Palavras'}},
+ ja:{store:'無料アプリストア',search:'無料ゲームを検索…',searchLabel:'ゲームを検索',refresh:'更新',all:'すべて',installed:'インストール済み',install:'＋ インストール',free:'個の無料ゲーム',installedCount:'インストール済み',noMatch:'一致するゲームがありません。',empty:'まだアプリがありません。ストアからゲームを追加してください。',browse:'＋ ストアを開く',installedApps:'インストール済みアプリ',yourDesktop:'デスクトップ',installedBlurb:'ストアからインストールした無料ゲーム。',source:'各項目は Offline-HTML-Games-Pack のゲームファイルを参照します。インストールするとショートカットが追加され、起動時にリポジトリから読み込まれます。',languages:{en:'English',es:'Español',fr:'Français',de:'Deutsch',pt:'Português',ja:'日本語',zh:'中文'},cats:{Puzzle:'パズル',Arcade:'アーケード',Sandbox:'サンドボックス',Runner:'ランナー',Clicker:'クリック',Word:'単語'}},
+ zh:{store:'免费应用商店',search:'搜索免费游戏…',searchLabel:'搜索游戏',refresh:'刷新',all:'全部',installed:'已安装',install:'＋ 安装',free:'款免费游戏',installedCount:'已安装',noMatch:'没有找到匹配的游戏。',empty:'尚未安装应用。打开商店添加游戏。',browse:'＋ 打开商店',installedApps:'已安装应用',yourDesktop:'你的桌面',installedBlurb:'从应用商店安装的免费游戏。',source:'以下条目链接到 Offline-HTML-Games-Pack 中的游戏文件。安装会添加快捷方式；启动时从仓库加载游戏。',languages:{en:'English',es:'Español',fr:'Français',de:'Deutsch',pt:'Português',ja:'日本語',zh:'中文'},cats:{Puzzle:'益智',Arcade:'街机',Sandbox:'沙盒',Runner:'跑酷',Clicker:'点击',Word:'文字'}}
+};
+let language=localStorage.getItem('northstar-language')||'en';
+const tr=k=>(translations[language]||translations.en)[k]||translations.en[k]||k;
+const catName=c=>c==='All'?tr('all'):((translations[language]||translations.en).cats[c]||c);
 const $=id=>document.getElementById(id); const safeParse=(s,f)=>{try{return JSON.parse(s)||f}catch{return f}};
 const getInstalled=()=>safeParse(localStorage.getItem('northstar-repo-installed-apps'),[]).filter(id=>apps.some(a=>a.id===id));
 const setInstalled=list=>localStorage.setItem('northstar-repo-installed-apps',JSON.stringify([...new Set(list)]));
 const appUrl=app=>CDN+app.file;
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const os=$('northstarOS'),host=$('northstarWindows'); if(!os||!host)return;
+function translateShell(){const title=document.querySelector('#northstarInstalledDashboard h2');if(title)title.childNodes[0].textContent=tr('installedApps')+' ';const blurb=document.querySelector('#northstarInstalledDashboard .ns-section-head p');if(blurb)blurb.textContent=tr('installedBlurb');const browse=$('nsOpenMarketDashboard');if(browse)browse.textContent=tr('browse');const kick=document.querySelector('#northstarInstalledDashboard .ns-market-kicker');if(kick)kick.textContent=tr('yourDesktop');const empty=document.querySelector('#nsInstalledDashboardGrid .ns-installed-empty');if(empty)empty.textContent=tr('empty');}
 let marketCategory='All',marketQuery=''; const appWindows={}; let z=50;
 function focusWindow(w){z++;w.style.zIndex=z;document.querySelectorAll('.northstar-window').forEach(x=>x.classList.toggle('focused',x===w));}
 function makeWindow(id,title,cls=''){
@@ -515,14 +528,15 @@ function ensureMarketControls(){
  const task=os.querySelector('.northstar-taskbar');if(task&&!task.querySelector('[data-ns-market-task]')){const b=document.createElement('button');b.className='northstar-taskicon ns-dynamic-task';b.title='Free App Store';b.textContent='🛍️';b.dataset.nsMarketTask='1';b.onclick=()=>openMarket();const spacer=task.querySelector('.northstar-task-spacer');task.insertBefore(b,spacer||null);}
  const note=os.querySelector('.northstar-osnote');if(note&&!os.querySelector('.ns-os-installed-label')){const l=document.createElement('div');l.className='ns-os-installed-label';l.textContent='INSTALLED GAMES';note.insertAdjacentElement('beforebegin',l);}
 }
-function updateInstalledUI(){const installed=getInstalled();const dash=$('nsInstalledDashboardGrid');if(dash){dash.innerHTML='';$('nsInstalledCount').textContent=installed.length;if(!installed.length){dash.innerHTML='<div class="ns-installed-empty">No marketplace apps installed yet. Browse the App Store to add games here.</div>';}else installed.forEach(id=>{const a=apps.find(x=>x.id===id);if(!a)return;const b=document.createElement('button');b.className='ns-installed-app';b.innerHTML='<span class="ns-app-icon">'+a.icon+'</span><span><strong>'+esc(a.name)+'</strong><small>'+esc(a.category)+' · Installed</small></span>';b.onclick=()=>openApp(a);dash.appendChild(b);});}
+function updateInstalledUI(){translateShell();const installed=getInstalled();const dash=$('nsInstalledDashboardGrid');if(dash){dash.innerHTML='';$('nsInstalledCount').textContent=installed.length;if(!installed.length){dash.innerHTML='<div class="ns-installed-empty">No marketplace apps installed yet. Browse the App Store to add games here.</div>';}else installed.forEach(id=>{const a=apps.find(x=>x.id===id);if(!a)return;const b=document.createElement('button');b.className='ns-installed-app';b.innerHTML='<span class="ns-app-icon">'+a.icon+'</span><span><strong>'+esc(a.name)+'</strong><small>'+esc(a.category)+' · Installed</small></span>';b.onclick=()=>openApp(a);dash.appendChild(b);});}
  const existing=os.querySelectorAll('[data-ns-installed-shortcut]');existing.forEach(x=>x.remove());const task=os.querySelector('.northstar-taskbar');os.querySelectorAll('[data-ns-installed-task]').forEach(x=>x.remove());
  const desktop=os.querySelector('.northstar-osgrid');installed.forEach(id=>{const a=apps.find(x=>x.id===id);if(!a)return;const b=document.createElement('button');b.className='northstar-osapp';b.dataset.nsInstalledShortcut=id;b.innerHTML='<span>'+a.icon+'</span>'+esc(a.name);b.onclick=()=>openApp(a);desktop?.appendChild(b);if(task){const t=document.createElement('button');t.className='northstar-taskicon ns-dynamic-task';t.title=a.name;t.textContent=a.icon;t.dataset.nsInstalledTask=id;t.onclick=()=>{const w=appWindows['repo-'+id];if(w?.classList.contains('open')){w.classList.remove('open');}else openApp(a);updateInstalledUI();};task.insertBefore(t,task.querySelector('.northstar-task-spacer')||null);}});
 }
-function marketMarkup(){return '<div class="ns-market-shell"><div class="ns-market-toolbar"><div style="font-size:20px;font-weight:850;white-space:nowrap">🛍️ Free App Store</div><input id="nsMarketSearch" type="search" placeholder="Search free games…" aria-label="Search marketplace games"><button class="ns-market-button" id="nsMarketRefresh">Refresh</button></div><div class="ns-market-cats" id="nsMarketCats"></div><div class="ns-market-status" id="nsMarketStatus"></div><div class="ns-market-grid" id="nsMarketGrid"></div><div class="ns-market-source">Every listing below points to a game file in <a href="'+REPO+'" target="_blank" rel="noopener">CoolDude2349/Offline-HTML-Games-Pack</a>. Install adds a shortcut to this OS and your dashboard; game files load from the repository CDN when launched.</div></div>';}
-function renderMarket(){const w=appWindows.market;if(!w)return;const body=w.querySelector('.northstar-windowbody');if(!body.querySelector('#nsMarketGrid')){body.innerHTML=marketMarkup();body.querySelector('#nsMarketSearch').addEventListener('input',e=>{marketQuery=e.target.value.trim().toLowerCase();renderMarketCards();});body.querySelector('#nsMarketRefresh').onclick=()=>{marketQuery=body.querySelector('#nsMarketSearch').value.trim().toLowerCase();renderMarketCards();};}
- const cats=['All',...new Set(apps.map(a=>a.category))];const catHost=body.querySelector('#nsMarketCats');catHost.innerHTML=cats.map(c=>'<button type="button" data-ns-cat="'+esc(c)+'" class="'+(c===marketCategory?'active':'')+'">'+esc(c)+'</button>').join('');catHost.querySelectorAll('button').forEach(b=>b.onclick=()=>{marketCategory=b.dataset.nsCat;renderMarket();});renderMarketCards();}
-function renderMarketCards(){const w=appWindows.market;if(!w)return;const body=w.querySelector('.northstar-windowbody');if(!body.querySelector('#nsMarketGrid'))return;const installed=getInstalled();const list=apps.filter(a=>(marketCategory==='All'||a.category===marketCategory)&&(`${a.name} ${a.category} ${a.description}`.toLowerCase().includes(marketQuery)));body.querySelector('#nsMarketStatus').textContent=list.length+' free games · '+installed.length+' installed';const grid=body.querySelector('#nsMarketGrid');grid.innerHTML='';if(!list.length){grid.innerHTML='<div class="ns-installed-empty">No games match that search.</div>';return;}list.forEach(a=>{const card=document.createElement('article');card.className='ns-market-card';card.innerHTML='<div class="ns-market-card-top"><span class="ns-market-icon">'+a.icon+'</span><div><h3>'+esc(a.name)+'</h3><span class="ns-category">'+esc(a.category)+'</span></div></div><p>'+esc(a.description)+'</p><footer><small>FREE · REPO GAME</small><button type="button" class="'+(installed.includes(a.id)?'installed':'')+'">'+(installed.includes(a.id)?'✓ Installed':'＋ Install')+'</button></footer>';card.querySelector('button').onclick=()=>{if(installed.includes(a.id)){openApp(a);return;}setInstalled([...installed,a.id]);updateInstalledUI();renderMarketCards();};grid.appendChild(card);});}
+function marketMarkup(){return '<div class="ns-market-shell"><div class="ns-market-toolbar"><div style="font-size:20px;font-weight:850;white-space:nowrap">🛍️ <span id="nsStoreTitle">'+esc(tr('store'))+'</span></div><input id="nsMarketSearch" type="search" placeholder="'+esc(tr('search'))+'" aria-label="'+esc(tr('searchLabel'))+'"><select id="nsLanguage" aria-label="Language" title="Language">'+Object.entries(translations.en.languages).map(([k,v])=>'<option value="'+k+'" '+(language===k?'selected':'')+'>'+v+'</option>').join('')+'</select><button class="ns-market-button" id="nsMarketRefresh">'+esc(tr('refresh'))+'</button></div><div class="ns-market-cats" id="nsMarketCats"></div><div class="ns-market-status" id="nsMarketStatus"></div><div class="ns-market-grid" id="nsMarketGrid"></div><div class="ns-market-source" id="nsMarketSource">'+esc(tr('source'))+' <a href="'+REPO+'" target="_blank" rel="noopener">CoolDude2349/Offline-HTML-Games-Pack</a></div></div>';}
+
+function renderMarket(){const w=appWindows.market;if(!w)return;const body=w.querySelector('.northstar-windowbody');if(!body.querySelector('#nsMarketGrid')){body.innerHTML=marketMarkup();body.querySelector('#nsMarketSearch').addEventListener('input',e=>{marketQuery=e.target.value.trim().toLowerCase();renderMarketCards();});body.querySelector('#nsMarketRefresh').onclick=()=>{marketQuery=body.querySelector('#nsMarketSearch').value.trim().toLowerCase();renderMarketCards();};body.querySelector('#nsLanguage').onchange=e=>{language=e.target.value;localStorage.setItem('northstar-language',language);renderMarket();updateInstalledUI();};}
+ const cats=['All',...new Set(apps.map(a=>a.category))];const catHost=body.querySelector('#nsMarketCats');catHost.innerHTML=cats.map(c=>'<button type="button" data-ns-cat="'+esc(c)+'" class="'+(c===marketCategory?'active':'')+'">'+esc(catName(c))+'</button>').join('');catHost.querySelectorAll('button').forEach(b=>b.onclick=()=>{marketCategory=b.dataset.nsCat;renderMarket();});renderMarketCards();}
+function renderMarketCards(){const w=appWindows.market;if(!w)return;const body=w.querySelector('.northstar-windowbody');if(!body.querySelector('#nsMarketGrid'))return;const installed=getInstalled();const list=apps.filter(a=>(marketCategory==='All'||a.category===marketCategory)&&(`${a.name} ${a.category} ${a.description}`.toLowerCase().includes(marketQuery)));body.querySelector('#nsMarketStatus').textContent=list.length+' '+tr('free')+' · '+installed.length+' '+tr('installedCount');const grid=body.querySelector('#nsMarketGrid');grid.innerHTML='';if(!list.length){grid.innerHTML='<div class="ns-installed-empty">'+esc(tr('noMatch'))+'</div>';return;}list.forEach(a=>{const card=document.createElement('article');card.className='ns-market-card';card.innerHTML='<div class="ns-market-card-top"><span class="ns-market-icon">'+a.icon+'</span><div><h3>'+esc(a.name)+'</h3><span class="ns-category">'+esc(a.category)+'</span></div></div><p>'+esc(a.description)+'</p><footer><small>FREE · REPO GAME</small><button type="button" class="'+(installed.includes(a.id)?'installed':'')+'">'+(installed.includes(a.id)?'✓ '+tr('installed'):tr('install'))+'</button></footer>';card.querySelector('button').onclick=()=>{if(installed.includes(a.id)){openApp(a);return;}setInstalled([...installed,a.id]);updateInstalledUI();renderMarketCards();};grid.appendChild(card);});}
 function openMarket(){const w=makeWindow('market','🛍️ Free App Store','ns-market-window');renderMarket();focusWindow(w);}
 $('nsOpenMarketDashboard')?.addEventListener('click',()=>{if(!os.classList.contains('open')){os.classList.add('open');document.body.classList.add('northstar-os-active');}openMarket();});
 ensureMarketControls();updateInstalledUI();
@@ -531,5 +545,120 @@ document.addEventListener('keydown',e=>{if(e.key!=='Escape'||!os.classList.conta
 })();
 </script>
 
+
+<style id="northstar-mobile-support">
+/* Responsive and touch-friendly layout for phones and tablets */
+html { -webkit-text-size-adjust: 100%; }
+button, input, select, textarea { font: inherit; }
+button, a, select, input { touch-action: manipulation; }
+@media (hover:none) and (pointer:coarse) {
+  button { -webkit-tap-highlight-color: transparent; }
+  .northstar-osapp:hover, .ns-installed-app:hover { transform:none; }
+  .northstar-osapp, .northstar-osbar button, .northstar-taskicon,
+  .ns-market-button, .ns-market-card button, .ns-market-cats button,
+  .ns-section-head button { min-height:42px; }
+  .northstar-windowbar { touch-action:pan-y; }
+}
+@media (max-width: 700px) {
+  .northstar-os { padding: max(10px, env(safe-area-inset-top)) 10px max(70px, env(safe-area-inset-bottom)); overflow:auto; }
+  .northstar-osbar { gap:8px; padding:10px; border-radius:13px; }
+  .northstar-osbar button { padding:10px; font-size:12px; }
+  .northstar-os h1 { font-size:clamp(28px, 8vw, 42px); margin:22px 5px 6px; }
+  .northstar-os p { font-size:13px; }
+  .northstar-osgrid { grid-template-columns:repeat(3,minmax(0,1fr)) !important; gap:8px; margin:16px 0 0 !important; }
+  .northstar-osapp { min-width:0; min-height:88px !important; padding:8px !important; border-radius:12px; font-size:12px; overflow-wrap:anywhere; }
+  .northstar-osapp span { font-size:26px; margin-bottom:6px; }
+  .northstar-window { left:8px !important; top:8px !important; width:calc(100vw - 16px) !important; height:calc(100dvh - 76px - env(safe-area-inset-bottom)) !important; min-width:0 !important; max-width:none !important; max-height:none !important; resize:none; border-radius:12px; }
+  .northstar-window.maximized { left:0 !important; top:0 !important; width:100vw !important; height:calc(100dvh - 58px - env(safe-area-inset-bottom)) !important; border-radius:0; }
+  .northstar-windowbar { min-height:42px; padding:7px 9px; gap:6px; }
+  .northstar-windowbar button { min-width:36px; min-height:34px; }
+  .northstar-windowbody { min-height:0; overflow:auto; }
+  .northstar-taskbar { position:fixed !important; left:0; right:0; bottom:0; z-index:1800; display:flex; flex-wrap:nowrap; gap:4px; padding:6px 8px calc(6px + env(safe-area-inset-bottom)); overflow-x:auto; overflow-y:hidden; white-space:nowrap; box-sizing:border-box; }
+  .northstar-taskbar > * { flex:0 0 auto; }
+  .northstar-taskicon { min-width:42px !important; min-height:40px; }
+  .northstar-tray { flex:0 0 auto; }
+  .northstar-start-menu, #northstarStartMenu { max-width:calc(100vw - 20px); max-height:65dvh; overflow:auto; }
+  .northstar-modal { padding:8px; align-items:flex-start; overflow:auto; }
+  .northstar-panel { width:100%; max-height:calc(100dvh - 16px); box-sizing:border-box; border-radius:15px; padding:14px; }
+  .northstar-panel-head h2 { font-size:20px; }
+  .northstar-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .ns-installed-dashboard { padding:13px; }
+  .ns-installed-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .ns-market-shell { height:100%; min-height:0; }
+  .ns-market-toolbar { padding:9px; gap:7px; }
+  .ns-market-toolbar > div:first-child { flex:1 0 100%; }
+  .ns-market-toolbar input { flex:1 1 120px; min-width:0; width:100%; box-sizing:border-box; }
+  .ns-market-toolbar select { max-width:43%; min-width:0; }
+  .ns-market-toolbar .ns-market-button { padding:9px; }
+  .ns-market-cats { padding:8px 9px 0; gap:5px; }
+  .ns-market-cats button { padding:7px 9px; }
+  .ns-market-grid { grid-template-columns:repeat(2,minmax(0,1fr)); padding:8px; gap:8px; }
+  .ns-market-card { min-height:155px; padding:9px; min-width:0; }
+  .ns-market-card h3 { overflow-wrap:anywhere; }
+  .ns-market-card footer { align-items:flex-start; flex-wrap:wrap; }
+  .ns-market-card footer button { flex:1 1 100%; }
+  .ns-game-window-body iframe { min-height:0; height:100%; }
+}
+@media (max-width:380px) {
+  .northstar-osgrid { grid-template-columns:repeat(2,minmax(0,1fr)) !important; }
+  .ns-market-grid { grid-template-columns:1fr; }
+  .ns-installed-grid { grid-template-columns:1fr; }
+  .northstar-grid { grid-template-columns:1fr; }
+  .northstar-windowbar .win-title { max-width:45vw; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+}
+</style>
+
 </body>
 </html>
+
+<!-- Cloak-mode recovery and shortcut safety controls -->
+<style>
+#northstarCloakEmergency{position:fixed;right:14px;bottom:14px;z-index:2147483647;display:none;align-items:center;gap:8px;padding:12px 16px;border:2px solid #fff;border-radius:14px;background:#b91c1c;color:#fff;font:800 14px/1.2 system-ui,sans-serif;box-shadow:0 5px 24px #0008;cursor:pointer;touch-action:manipulation}
+#northstarCloakEmergency:focus-visible{outline:4px solid #facc15;outline-offset:3px}
+body.northstar-cloaked #northstarCloakEmergency{display:flex}
+#northstarShortcutSafety{display:flex;align-items:flex-start;gap:10px;padding:12px;margin:10px 0;border:1px solid var(--line,#ddd);border-radius:10px;background:var(--surface,#fff);color:var(--ink,#222);font:inherit}
+#northstarShortcutSafety input{width:18px;height:18px;flex:0 0 auto;margin-top:2px}
+#northstarShortcutSafety small{display:block;opacity:.75;margin-top:3px}
+@media(max-width:520px){#northstarCloakEmergency{right:10px;bottom:10px;left:10px;justify-content:center;font-size:15px;padding:14px}}
+</style>
+<button id="northstarCloakEmergency" type="button" aria-label="Emergency: turn off cloak mode">🚨 Emergency: Turn Off Cloak</button>
+<script>
+(function(){
+  const emergency=document.getElementById('northstarCloakEmergency');
+  function disableCloak(){
+    try{
+      const raw=localStorage.getItem('northstar-extras');
+      const extras=raw?JSON.parse(raw):{};
+      extras.cloak=false;
+      localStorage.setItem('northstar-extras',JSON.stringify(extras));
+    }catch(e){}
+    document.body.classList.remove('northstar-cloaked');
+    document.title='Northstar Learning — Student Dashboard';
+    const toggle=document.getElementById('cloakToggle');if(toggle)toggle.checked=false;
+    const button=document.getElementById('cloakBtn');if(button)button.setAttribute('aria-pressed','false');
+    emergency.blur();
+  }
+  emergency.addEventListener('click',disableCloak);
+  // Shortcut controls are stored independently so they remain recoverable even in cloak mode.
+  const hotkeysModal=document.getElementById('northstarHotkeys');
+  const hotkeyContent=hotkeysModal&&hotkeysModal.querySelector('.northstar-content');
+  if(hotkeyContent&&!document.getElementById('northstarShortcutSafety')){
+    const label=document.createElement('label');label.id='northstarShortcutSafety';
+    label.innerHTML='<input type="checkbox" id="northstarShortcutsDisabled"><span><strong>Disable keyboard shortcuts</strong><small>Turns off custom Northstar hotkeys if you keep triggering them by accident. The emergency cloak shortcut Alt + Shift + C remains available.</small></span>';
+    const rows=hotkeyContent.querySelector('#northstarHotkeyRows');
+    if(rows)hotkeyContent.insertBefore(label,rows);
+    else hotkeyContent.prepend(label);
+    const checkbox=label.querySelector('input');
+    checkbox.checked=localStorage.getItem('northstar-shortcuts-disabled')==='true';
+    checkbox.addEventListener('change',()=>localStorage.setItem('northstar-shortcuts-disabled',String(checkbox.checked)));
+  }
+  // Intercept the existing custom-hotkey listener when disabled, without blocking the rescue chord.
+  document.addEventListener('keydown',function(e){
+    const rescue=e.altKey&&e.shiftKey&&String(e.key).toLowerCase()==='c';
+    if(rescue)return;
+    if(localStorage.getItem('northstar-shortcuts-disabled')!=='true')return;
+    if(e.target&&e.target.closest&&e.target.closest('#northstarHotkeys'))return;
+    e.stopImmediatePropagation();
+  },true);
+})();
+</script>
